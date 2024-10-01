@@ -1,0 +1,135 @@
+.rating-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color:rgba(56, 125, 255, 0.17);
+    border-radius: 10px;
+    max-width: 400px; 
+    position: fixed;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #555;
+}
+
+.feedback-text {
+    color: #555;
+    
+}
+
+.rated-stars{
+    color: #555;
+}
+
+.stars-container {
+    margin: 20px;
+    display: flex; 
+    justify-content: center; 
+}
+
+.buttons-container {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.buttons-container button {
+    font-weight: bold;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 150px;
+    height: 50px;
+}
+
+.buttons-container button.submit {
+    background-color: white;
+    color: #555;
+    border: 2px solid rgba(56, 125, 255, 0.17);
+    margin: 10px;
+}
+
+.buttons-container button.submit.active {
+    background-color: #1f98f4; 
+    color: white; 
+}
+
+.buttons-container button.cancel {
+    background-color: white;
+    color: #555;
+    border: 2px solid rgba(56, 125, 255, 0.17);
+    margin: 10px;
+}
+
+.buttons-container button.cancel:hover {
+    background-color: lightgrey;
+}
+
+.category-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.category-icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.category-icon:hover {
+    transform: scale(1.05);
+}
+
+.category-icon.selected {
+    border: 1px solid#555;
+    background-color: white;
+    border-radius: 10px;
+    padding: 1.5px;
+}
+
+.category-icon > span {
+    margin-top: 5px;
+}
+
+.opinion-form {
+    margin-top: 20px;
+}
+
+.opinion-text-container {
+    margin-top: 10px;
+}
+
+.opinion-text-container textarea {
+    width: calc(100% - 20px); /* Adjusting for padding */
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    resize: vertical; 
+}
+
+@media screen and (max-width: 600px) {
+    .rating-container {
+      width: 80%;
+      max-width: none;
+    }
+  
+    .buttons-container button {
+      font-size: 14px;
+      width: 120px; 
+      height: 40px; 
+    }
+
+    .category-icon {
+        margin: 5px;
+    }
+}

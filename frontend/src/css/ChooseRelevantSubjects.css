@@ -1,0 +1,45 @@
+.grid {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.card {
+    /* position relative for stretched link */
+    position: relative;
+    /* background-color: var(--yellow-light); */
+    background-color: rgb(199, 195, 195);
+    border-radius: 15px;
+    aspect-ratio: 1 / 1;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    margin: 0.75rem;
+}
+
+.card__title {
+    background-color: rgb(154, 154, 154);
+    border: 1px solid rgb(139, 139, 139);
+    margin: 1rem;
+    border-radius: 15px;
+    padding: 1.25em;
+}
+
+
+@media (min-width: 768px) {
+    .grid {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 1rem;
+    }
+}
+@media (min-width: 1024px) {
+    .grid {
+        grid-template-columns: repeat(6, minmax(0, 1fr));
+        gap: 1rem;
+    }
+}
+@media (min-width: 1280px) {
+    .grid {
+        grid-template-columns: repeat(8, minmax(0, 1fr));
+        gap: 2rem;
+    }
+}

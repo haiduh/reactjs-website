@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/backend.iml" filepath="$PROJECT_DIR$/.idea/modules/backend.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/backend.main.iml" filepath="$PROJECT_DIR$/.idea/modules/backend.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/backend.test.iml" filepath="$PROJECT_DIR$/.idea/modules/backend.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.github.group37.backend.iml" filepath="$PROJECT_DIR$/.idea/modules/com.github.group37.backend.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.github.group37.backend.test.iml" filepath="$PROJECT_DIR$/.idea/modules/com.github.group37.backend.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/cs2001-2023-24-group_37.iml" filepath="$PROJECT_DIR$/.idea/cs2001-2023-24-group_37.iml" />
+    </modules>
+  </component>
+</project>
