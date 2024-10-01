@@ -1,0 +1,131 @@
+h1 {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    font-family: "Raleway", sans-serif;
+    font-weight: 300;
+    font-size: 40px;
+    color: #080808;
+    -webkit-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+  }
+  
+h1 span {
+    display: block;
+    font-size: 0.5em;
+    line-height: 1.3;
+  }
+  
+h1 em {
+    font-style: normal;
+    font-weight: 600;
+  }
+
+.help-background {
+    background-image: url('../images/help-bg.jpg');
+    background-size: cover; 
+    background-position: center; 
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; 
+}
+
+.help-container {
+   margin:0;
+   padding: 0;
+   box-sizing: border-box;
+   position: relative;
+   z-index: 1;
+}
+
+.title h1{
+    text-align: center;
+    font-size:50px; font-weight:300; color:#222; letter-spacing:1px;
+    text-transform: uppercase;
+
+    display: grid;
+    grid-template-columns: 1fr max-content 1fr;
+    grid-template-rows: 27px 0;
+    grid-gap: 20px;
+    align-items: center;
+}
+
+.title h1:after,.title h1:before {
+    content: " ";
+    display: block;
+    border-bottom: 1px solid #c50000;
+    border-top: 1px solid #c50000;
+    height: 5px;
+  background-color:#f8f8f8;
+}
+
+.faqs {
+    width: 100%;
+    max-width: 768px;       /*Keeps the page accessible for smaller devices*/
+    margin: 0 auto;
+    padding: 25px;
+}
+
+.faqs .faq {     
+    margin: 15px;
+    padding: 15px;
+    background-color: #fff;             /*adds the border around the FAQ's*/
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.faqs .faq:hover {
+    border-bottom: 3px solid lightgray;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.faqs .faq .faq-question {
+    position: relative;
+    font-size: 20px;        /*Important for the animation of the arrow.*/
+    padding-right: 80px;
+
+    transition: all 0.4s ease;
+}
+
+
+.faqs .faq .faq-question::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: 0px;
+    transform: translateY(-50%);
+    width: 30px;
+    height: 30px;
+
+    background-image: url("../svg files/arrow.svg");  /*Process for the animation*/
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    transition: all 0.4s ease-out; 
+}
+
+.faqs .faq .faq-answer {
+    opacity: 0;
+    max-height: 0;                  
+    overflow-y: hidden;
+    transition: all 0.4s ease-out;
+}
+
+.faqs .faq.open .faq-question {
+    margin-bottom: 15px;
+}
+
+.faqs .faq.open .faq-question::after {
+    transform: translateY(-50%) rotate(180deg);
+}
+
+.faqs .faq.open .faq-answer {
+    max-height: 1000px;         /*cant animate height on its own to auto.*/
+    opacity: 1;
+}
