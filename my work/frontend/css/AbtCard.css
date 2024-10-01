@@ -1,0 +1,73 @@
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.abt-card {
+    background-color: white;
+    border: 1px solid hsl(0, 0%, 80%);
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px hsla(0, 0%, 0%, 0.1);
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    width: calc(33.33% - 20px); /* Adjust width to fit three cards in a row */
+    max-width: 500px; 
+    transition: all 0.3s ease; /* Smooth transition for all properties */
+}
+
+.abt-card:hover {
+    border-bottom: 3px solid lightgray; /* Change border color on hover */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    transform: translateY(-5px); /* Move the card slightly up on hover */
+}
+
+.abt-card.mission {
+   align-items: center;
+}
+
+.abt-card.what-we-do {
+   align-items: center;
+}
+
+.abt-card.why-choose-us {
+   align-items: center;
+}
+
+.abt-card-content {
+    display: flex;
+    flex-direction: column; /* Ensure content is displayed vertically by default */
+    align-items: center;
+}
+
+.abt-card-text {
+    font-family: Sen, sans-serif;
+    color: hsl(0, 0%, 30%);
+    margin-bottom: 20px; /* Add margin at the bottom of the paragraph */
+    margin-top: 20px;
+}
+
+.abt-card-image {
+    max-width: auto; /* Adjust image size as needed */
+    height: auto;
+    margin-bottom: 10px; /* Add margin at the bottom of the image */
+}
+
+.abt-card-title {
+    font-family: Sen, sans-serif;
+    margin: 0;
+    color: hsl(0, 0%, 20%);
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+    .abt-card {
+        width: calc(100% - 20px); 
+    }
+
+    .abt-card-content {
+        flex-direction: column; 
+        align-items: center; 
+    }
+}

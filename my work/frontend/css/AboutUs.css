@@ -1,0 +1,56 @@
+
+.about-us {
+    box-sizing: border-box;
+}
+
+.wlcm-background {
+    background-color: white;
+    margin: auto;
+    border: 2px solid hsl(0, 0%, 0%);
+    box-shadow: 5px 5px 5px hsla(0, 0%, 100%, 0.2);
+    max-width: 1000px;
+    border-radius: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.text-center {
+    margin-top: 5%;
+    margin-bottom: 3%;
+    text-align: center !important;
+}
+
+.abt-hero-headline {
+    display: block;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    color: #053330;
+    font-family: 'Sen', sans-serif;
+    font-weight: 500;
+    line-height: 1.25em;
+    font-style: normal;
+}
+
+.p {
+    font-size: 1.1rem;
+    font-family: 'Sen', sans-serif;
+    line-height: 1.6;
+    margin: 0 auto;
+    max-width: 800px;
+    margin-bottom: 5%;
+}
+
+.abt-background {
+    background-image: url('../images/abt-bg.jpg');
+    border-radius: 5px;
+    background-size: cover; 
+    background-position: center; 
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; 
+}
