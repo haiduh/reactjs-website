@@ -116,15 +116,25 @@ The **Contact Us** page is designed to allow users to submit inquiries directly 
 - **FAQ Section**: Common questions and answers.
 - **Contact Form**: Submits user details and queries to the backend. The data is securely stored in the database and processed accordingly.
 
+
+![help](https://github.com/user-attachments/assets/70f59d39-5fe1-4180-bfd8-efdb78c3f685)
+
+
 ## 📖 About Us Page
 
 The **About Us** page provides information about the project and the team behind it. It outlines the vision, mission, and goals of the website, as well as the technologies and methodologies used in its development.
+
+
+![aboutus](https://github.com/user-attachments/assets/5d84d713-777b-45f3-8c5c-cb27af1c8b14)
+
 
 ## 🛠 API Testing with Postman
 
 **Postman** has been used extensively to test the website's functionality.
 
+
 ![postman](https://github.com/user-attachments/assets/07d8bc28-fcf8-4e0c-918a-191c9423d3b9)
+
 
 ## 🤝 Contributions
 
