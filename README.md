@@ -129,8 +129,3 @@ The **About Us** page provides information about the project and the team behind
 ## 🤝 Contributions
 
 Feel free to contribute! Fork the repo, make a pull request, and let's build something great together.
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
