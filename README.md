@@ -1,8 +1,8 @@
 # ReactJS Website with Spring Boot/Node.js Backend
 
-![Project Banner](./images/project-banner.png) <!-- Replace with actual image path -->
+![banner](https://github.com/user-attachments/assets/2ab92400-103f-4d30-b4d8-4cc79916504f)
 
-Welcome to the **ReactJS Website** project! This repository contains a fully functional website with a **ReactJS** frontend and a backend powered by **Spring Boot** or **Node.js** (depending on your choice). The project also includes a comprehensive **"Contact Us"** page, featuring an FAQ section and a form that connects to the backend to handle user queries.
+Welcome to the **EDUTRACK ReactJS Website** project! This repository contains a fully functional website with a **ReactJS** frontend and a backend powered by **Spring Boot** or **Node.js** (depending on your choice). This group project was made by my colleagues and I to help struggling students by giving them a platform to express their concerns on. It generates a personalised roadmap, contacts professionals for help, provides generous feedback and many more! I mainly contributed in making a comprehensive **"Contact Us"** page, featuring an FAQ section and a form that connects to the backend to handle user queries.
 
 ## 🌟 Features
 
@@ -17,7 +17,11 @@ Welcome to the **ReactJS Website** project! This repository contains a fully fun
 - **API Testing**: 
   - Fully tested API endpoints using **Postman**.
 
-![Website Demo](./gifs/website-demo.gif) <!-- Replace with actual GIF path -->
+
+
+https://github.com/user-attachments/assets/cb5f808a-bf2a-4f80-b15a-c79f7ed5ac76
+
+
 
 ## 🚀 Technologies Used
 
@@ -73,6 +77,9 @@ root/
    npm start
 
 ### Backend (Spring Boot)
+
+As shown in the demo, I initliased this server using the IntelliJ IDE. This is an alternative method.
+
 1. Navigate to the `backend/` directory.
 
 2. Build the project:
@@ -87,7 +94,7 @@ root/
 
 The backend will be running at `http://localhost:8080`.
 
-## Backend (Node.js Alternative)
+### Backend (Node.js Alternative)
 1. Navigate to the `backend/` directory.
 
 2. Install dependencies:
@@ -100,7 +107,7 @@ The backend will be running at `http://localhost:8080`.
    ```bash
    npm start
 
-The backend will be running at `http://localhost:5000`.
+The backend will be running at `http://localhost:8081`.
 
 ## 📬 Contact Us Page
 
@@ -115,7 +122,9 @@ The **About Us** page provides information about the project and the team behind
 
 ## 🛠 API Testing with Postman
 
-**Postman** has been used extensively to test the website's functionality. 
+**Postman** has been used extensively to test the website's functionality.
+
+![postman](https://github.com/user-attachments/assets/07d8bc28-fcf8-4e0c-918a-191c9423d3b9)
 
 ## 🤝 Contributions
 
