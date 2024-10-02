@@ -135,7 +135,9 @@ The **About Us** page provides information about the project and the team behind
 
 ![postman](https://github.com/user-attachments/assets/07d8bc28-fcf8-4e0c-918a-191c9423d3b9)
 
+## 📞 Contact Me
+If you have any questions or would like to discuss this project further, feel free to reach out:
 
-## 🤝 Contributions
+- **Email:** rayaanhaider04@hotmail.com
 
-Feel free to contribute! Fork the repo, make a pull request, and let's build something great together.
+I’d love to hear your feedback or collaborate on future projects!
